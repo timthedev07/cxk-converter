@@ -20,6 +20,7 @@ export const SilentButton: FC<SilentButtonProps> = ({ className }) => {
 
       return () => {
         clearTimeout(t);
+        setGifMode("ending");
       };
     }
     return () => {};
