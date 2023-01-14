@@ -4,16 +4,16 @@ const defaultConfig: DefaultSeoProps = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "",
+    url: "https://cxk-converter.vercel.app",
     siteName: "",
   },
   twitter: {
     site: "@timthedev07",
     cardType: "summary",
   },
-  defaultTitle: "",
-  titleTemplate: "%s | ",
-  description: "",
+  defaultTitle: "Home | IKUN Unit Converter",
+  titleTemplate: "%s | IKUN Unit Converter",
+  description: "A globally recognized IKUN unit converter.",
   additionalMetaTags: [
     {
       httpEquiv: "content-type",
@@ -37,7 +37,7 @@ const defaultConfig: DefaultSeoProps = {
     },
     {
       name: "keywords",
-      content: "",
+      content: "ikun, 蔡徐坤，小黑子",
     },
   ],
   additionalLinkTags: [
