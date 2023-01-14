@@ -20,7 +20,7 @@ export const ConvertButton: FC<
       {...props}
       color="teal"
     >
-      Convert
+      转换
     </Button>
   );
 };

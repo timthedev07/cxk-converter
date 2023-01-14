@@ -1,6 +1,7 @@
 import { FC, ReactNode } from "react";
 import { DefaultSeo } from "next-seo";
 import defaultConfig from "../lib/seo-config";
+import { SilentButton } from "./SilentButton";
 
 export const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   // Uncomment this part to switch between desktop & mobile nav
@@ -22,6 +23,7 @@ export const Layout: FC<{ children: ReactNode }> = ({ children }) => {
     <>
       <DefaultSeo {...defaultConfig} />
       <div id="App">
+        <SilentButton className="fixed top-6 right-6" />
         <main className="p-8">{children}</main>
       </div>
     </>

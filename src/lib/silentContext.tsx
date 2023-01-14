@@ -2,7 +2,7 @@ import React, { ReactNode, useContext, useState } from "react";
 
 interface SilentContextType {
   silent: boolean;
-  setSilent: Function;
+  setSilent: React.Dispatch<React.SetStateAction<boolean>>;
 }
 const SilentContext = React.createContext<SilentContextType>({
   silent: false,
