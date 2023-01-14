@@ -29,7 +29,7 @@ const defaultConfig: DefaultSeoProps = {
     },
     {
       name: "google-site-verification",
-      content: "",
+      content: "ou31BwzL6hYs78yHQZrfEFRvZIBWxVoPkErFfm0f2z4",
     },
     {
       name: "viewport",
