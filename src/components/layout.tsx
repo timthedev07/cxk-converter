@@ -21,7 +21,9 @@ export const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <>
       <DefaultSeo {...defaultConfig} />
-      <div id="App">{children}</div>
+      <div id="App">
+        <main className="p-8">{children}</main>
+      </div>
     </>
   );
 };
