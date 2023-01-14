@@ -47,7 +47,7 @@ const defaultConfig: DefaultSeoProps = {
     },
     {
       rel: "apple-touch-icon",
-      href: "/logo192.png",
+      href: "/apple-touch-icon.png",
     },
   ],
 };
