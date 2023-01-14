@@ -1,6 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import Image from "next/image";
 import { useSilent } from "../lib/silentContext";
+import { useAudio } from "../lib/useAudio";
 
 interface SilentButtonProps {
   className?: string;
@@ -8,6 +9,7 @@ interface SilentButtonProps {
 
 export const SilentButton: FC<SilentButtonProps> = ({ className }) => {
   const { silent, setSilent } = useSilent();
+  const [, play] = useAudio("/ji.mp3");
   const [gifMode, setGifMode] = useState<"playing" | "idle" | "ending">("idle");
 
   useEffect(() => {
@@ -56,6 +58,7 @@ export const SilentButton: FC<SilentButtonProps> = ({ className }) => {
       <div
         className={`${className} w-8 h-8`}
         onClick={() => {
+          play();
           setSilent((prev) => !prev);
           setGifMode("playing");
         }}
