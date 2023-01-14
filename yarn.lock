@@ -651,6 +651,11 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+dragontail-experimental@^0.0.63:
+  version "0.0.63"
+  resolved "https://registry.yarnpkg.com/dragontail-experimental/-/dragontail-experimental-0.0.63.tgz#ea9d1cac656534d74b531f8f97ba62787695d8c0"
+  integrity sha512-B+8EPY947V+JUYTZCqj+jhLbHPG1yUlY1b8hyEzS+WJxQb9YmSdaspS/tMqaFym4JRXYTLh96BZN+R4uDftjcA==
+
 electron-to-chromium@^1.4.251:
   version "1.4.284"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz#61046d1e4cab3a25238f6bf7413795270f125592"

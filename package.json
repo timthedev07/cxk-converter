@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dragontail-experimental": "^0.0.63",
     "next": "13.1.2",
     "next-seo": "^5.15.0",
     "next-sitemap": "^3.1.45",
