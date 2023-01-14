@@ -33,7 +33,7 @@ export const SilentButton: FC<SilentButtonProps> = ({ className }) => {
             ? "animate-fade-in"
             : gifMode === "ending"
             ? "animate-fade-out"
-            : "hidden"
+            : "hidden z-[-10]"
         }`}
         style={{
           left: "50%",
